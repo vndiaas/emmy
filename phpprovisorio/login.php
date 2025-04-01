@@ -32,6 +32,7 @@ if (isset($_POST['login'])) {
             font-family: Arial, sans-serif;
             background-color: #FFFFFF; /* Fundo branco */
             display: flex;
+            flex-direction: column; /* Organiza os elementos verticalmente */
             justify-content: center;
             align-items: center;
             height: 100vh;
@@ -42,6 +43,7 @@ if (isset($_POST['login'])) {
             border-radius: 8px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             width: 300px;
+            margin-top: 20px; /* Adiciona um espaço entre o título e o container */
         }
         h2 {
             text-align: center;
@@ -81,15 +83,19 @@ if (isset($_POST['login'])) {
         h1{
             color: #00B4D8;
             text-align: center;
+            margin-bottom: 20px; /* Adiciona um espaço abaixo do título */
         }
 
+        header {
+            text-align: center; /* Centraliza o cabeçalho */
+        }
     </style>
 </head>
 
 <body>
 
 <header>
-<h1> SISTEMA ESCOLAR INTELIGENTE <span> SEI</span></h1>
+    <h1> SISTEMA ESCOLAR INTELIGENTE <span> SEI</span></h1>
 </header>
 
 <div class="login-container">
