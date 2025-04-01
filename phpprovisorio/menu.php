@@ -23,7 +23,7 @@ if (!isset($_SESSION['logged_in']) || $_SESSION['logged_in'] !== true) {
             top: 0;
             left: 0;
             width: 250px;
-            background-color: #ADD8E6; /* Azul meio claro */
+            background-color: #00b4d8; /* Azul meio claro */
             padding-top: 20px;
         }
         .sidebar a {
@@ -33,7 +33,7 @@ if (!isset($_SESSION['logged_in']) || $_SESSION['logged_in'] !== true) {
             display: block;
         }
         .sidebar a:hover {
-            background-color: #B0E0E6; /* Um tom ligeiramente diferente ao passar o mouse */
+            background-color: #ADD8E6; /* Um tom ligeiramente diferente ao passar o mouse */
         }
         .content {
             margin-left: 250px;
