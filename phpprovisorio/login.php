@@ -77,9 +77,20 @@ if (isset($_POST['login'])) {
             text-align: center;
             margin-top: 10px;
         }
+
+        h1{
+            color: #00B4D8;
+            text-align: center;
+        }
+
     </style>
 </head>
+
 <body>
+
+<header>
+<h1> SISTEMA ESCOLAR INTELIGENTE <span> SEI</span></h1>
+</header>
 
 <div class="login-container">
     <h2>Login</h2>

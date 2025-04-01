@@ -34,7 +34,7 @@ if (!isset($_SESSION['logged_in']) || $_SESSION['logged_in'] !== true) {
             display: block;
         }
         .sidebar a:hover {
-            background-color:rgb(30, 91, 182);
+            background-color: #00B4D8;
         }
         .content {
             margin-left: 250px;
